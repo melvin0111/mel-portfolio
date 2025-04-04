@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: #f3f3f3
+}
+.monomakh-regular {
+  font-family: "Monomakh", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+}
+
+@layer utilities {
+
+  @keyframes blink {
+    0%, 100% {
+     opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  .animate-blink {
+    animation: blink 1s ease infinite
+  }
+
+  @keyframes loading {
+    0% {
+      transform: translateX(-100%)
+    }
+    100% {
+      transform: translateX(250%)
+    }
+  }
+  .animate-loading-bar {
+    animation: loading 1s ease infinite
+  }
+}
