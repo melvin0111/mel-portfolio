@@ -2,6 +2,8 @@
 
 Welcome to my personal portfolio website! This project showcases my skills, projects, and contact information.
 
+https://melvin0111.github.io/mel-portfolio
+
 ## Features
 - Responsive design
 - Projects section
